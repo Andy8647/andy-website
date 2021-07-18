@@ -67,7 +67,7 @@ class Header extends Component {
                   startDelay={1500}
                   cursor={{ blink: true }}
                 >
-                  {name}
+                  Hi! My name is { name }.
                 </Typist>
               </h1>
             </Fade>
