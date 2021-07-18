@@ -8,7 +8,7 @@ class Footer extends Component {
     const networks = this.props.data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a href={network.url}>
+          <a href={network.url} target="_blank">
             <i className={network.className}></i>
           </a>
         </li>
@@ -23,10 +23,10 @@ class Footer extends Component {
               <ul className="social-links">{networks}</ul>
 
               <ul className="copyright">
-                <li>&copy; Copyright 2021 Nordic Giant</li>
+                <li>&copy; Copyright 2021 Gancheng Luo</li>
                 <li>
                   Design by{" "}
-                  <a title="Styleshout" href="http://www.styleshout.com/">
+                  <a title="Styleshout" href="http://www.styleshout.com/" target="_blank">
                     Styleshout
                   </a>
                 </li>
