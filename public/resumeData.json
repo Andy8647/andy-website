@@ -1,14 +1,12 @@
 {
   "main": {
     "name":"Gancheng Luo",
-    "description":"x",
+    "description":"I am a computer science new grad from University of Toronto. My objective position is a Front-end/Web Developer. Currently my career goal is a Full Stack Developer",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
+    "bio":"As a beginning developer, I possess solid computer science foundation and tidy coding style. I pay attention to not only implementation, but also the design. In my opinion, a resonable design is necessary and could make the development process smooth and clear. Outside of work, my favourite hobby is photography. Visual aesthetics is what I have been always seeking for. That's also one of the reasons why I choose to start my career from the front-end.",
     "email": "andy8647lgc@gmail.com",
     "phone": "647-870-3941",
     "github":"https://github.com/Andy8647",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
     "address":{
       "street":"Wellesley St W",
       "city":"Toronto",
@@ -41,120 +39,80 @@
     ]
   },
   "resume":{
-    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "skillmessage":"Recently I put efforts into web development. There are some js frameworks that I did not list here.",
     "education":[
       {
         "school":"University of Toronto",
         "degree":"Bachelor of Science",
         "graduated":"June 2021",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "description":"During the time at UofT, I have built solid basis of computer science, mathematics and statistics. The most useful soft skills I have learned is self-learning and team-working. I have done plenty of projects in teams in many subjects like web app building, OOP software development, machine learning competition, statistical report, etc."
       }
     ],
     "work":[],
     "skills":[
       {
-        "name":"Python",
-        "level":"60%"
+        "name":"Git",
+        "level":"80%"
       },
       {
-        "name":"VueJs",
-        "level":"55%"
+        "name":"JavaScript",
+        "level":"85%"
       },
       {
         "name":"ReactJs",
-        "level":"50%"
+        "level":"60%"
       },
       {
         "name":"CSS",
-        "level":"90%"
+        "level":"70%"
       },
       {
-        "name":"PHP",
-        "level":"80%"
-      },
-      {
-        "name":"Swift",
+        "name":"NodeJs",
         "level":"50%"
       },
       {
-        "name":"JAVA",
+        "name":" Python",
         "level":"80%"
+      },
+      {
+        "name":"JAVA",
+        "level":"50%"
+      },
+      {
+        "name":"C",
+        "level":"50%"
+      },
+      {
+        "name":"R",
+        "level":"90%"
       }
     ]
   },
   "portfolio":{
     "projects": [
       {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
+        "title":"CryptoGoGo",
+        "category":"Online Cryptocurrency Community and Trading platform",
         "image":"01.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://dynrank.herokuapp.com/"
       },
       {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
+        "title":"Dynrank.js",
+        "category":"High-performance dynamic bar chart visualization library",
         "image":"02.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"https://dynrank.herokuapp.com/"
       },
       {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
+        "title":"Bank System",
+        "category":"Java and PostgreSQL based bank transaction management system",
         "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
+        "url":"https://dynrank.herokuapp.com/"
       },
       {
         "title":"Resume Website",
-        "category":"A React based resume website template",
+        "category":"A React based resume website.",
         "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
-      },
-      {
-        "title":"Fury Fighting Gear",
-        "category":"(offline now) A fighting gear company I started",
-        "image":"01.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"02.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Original Thai Food",
-        "category":"Website I built for a restaurant I like in Thailand",
-        "image":"03.jpg",
-        "url":"http://www.timbakerdev.com/originalthaifood.github.io"
-      },
-      {
-        "title":"Resume Website",
-        "category":"A React based resume website template",
-        "image":"04.jpg",
-        "url":"http://www.timbakerdev.com"
-      },
-      {
-        "title":"Smirkspace",
-        "category":"(MVP Only) A React and Meteor based chat University project.",
-        "image":"05.jpg",
-        "url":"http://www.smirkspace.com"
-      },
-      {
-        "title":"Canadian Wanderlust",
-        "category":"My Travel Blog for my post-university travels",
-        "image":"06.jpg",
-        "url":"https://www.canadianwanderlust.com"
+        "url":"https://andy8647.com/"
       }
     ]
   }

@@ -93,7 +93,7 @@ class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">
-              <p>{skillmessage}</p>
+              <p>{skillmessage} You can check more in the <a href="Gancheng Luo.pdf"  target="_blank">pdf version</a>.</p>
 
               <div className="bars">
                 <ul className="skills">{skills}</ul>
