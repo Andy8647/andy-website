@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #0f0f0f; }
+body { background: #282c34; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -181,7 +181,7 @@ ul#nav li.current a { color: #fe6928; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #000524;
+   background: #00695f;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -214,6 +214,7 @@ ul#nav li.current a { color: #fe6928; }
 #about .download .button {
    margin-top: 6px;
    background: #444;
+   box-shadow: 5px 10px 10px #333333;
 }
 #about .download .button:hover {
    background: #fff;
@@ -292,9 +293,10 @@ ul#nav li.current a { color: #fe6928; }
 .bars li {
    position: relative;
   	margin-bottom: 60px;
-  	background: #333;
+  	background: #333333;
   	height: 42px;
-  	border-radius: 0px;
+  	border-radius: 0.5rem;
+   box-shadow: 5px 8px 10px #888888;
 }
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
@@ -316,7 +318,7 @@ ul#nav li.current a { color: #fe6928; }
    display: inline-block;
   	height: 42px;
    line-height: 42px;
-   border-radius: 0px;
+   border-radius: 0.25rem;
 }
 /*
 .git {
@@ -927,7 +929,7 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: #d4d4d4;
    font-size: 14px;
    text-align: center;
    position: relative;
