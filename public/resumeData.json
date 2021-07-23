@@ -3,7 +3,7 @@
     "name":"Gancheng Luo",
     "description":"I am a computer science new grad from University of Toronto. My objective position is a Front-end/Web Developer. Currently my career goal is a Full Stack Developer",
     "image":"profilepic.jpg",
-    "bio":"As a beginning developer, I possess solid computer science foundation and tidy coding style. I pay attention to not only implementation, but also the design. In my opinion, a resonable design is necessary and could make the development process smooth and clear. Outside of work, my favourite hobby is photography. Visual aesthetics is what I have been always seeking for. That's also one of the reasons why I choose to start my career from the front-end.",
+    "bio":"As a beginning developer, I possess a solid computer science foundation and a tidy coding style. I pay attention to not only implementation but also the design. In my opinion, a reasonable design is necessary and could make the development process smooth and clear. Outside of work, my favorite hobby is photography. Visual aesthetics is what I have been always seeking. That's also one of the reasons why I choose to start my career from the front-end.",
     "email": "andy8647lgc@gmail.com",
     "phone": "647-870-3941",
     "github":"https://github.com/Andy8647",
@@ -45,7 +45,7 @@
         "school":"University of Toronto",
         "degree":"Bachelor of Science",
         "graduated":"June 2021",
-        "description":"During the time at UofT, I have built solid basis of computer science, mathematics and statistics. The most useful soft skills I have learned is self-learning and team-working. I have done plenty of projects in teams in many subjects like web app building, OOP software development, machine learning competition, statistical report, etc."
+        "description":"During my time at UofT, I have built a solid basis in computer science, mathematics, and statistics. The most useful soft skills I have learned are self-learning and team-working. I have done plenty of projects in teams in many subjects like web app building, OOP software development, machine learning competition, statistical report, etc."
       }
     ],
     "work":[],
@@ -94,7 +94,7 @@
         "title":"CryptoGoGo",
         "category":"Online Cryptocurrency Community and Trading platform",
         "image":"01.jpg",
-        "url":"https://dynrank.herokuapp.com/"
+        "url":"https://agile-shelf-49866.herokuapp.com/"
       },
       {
         "title":"Dynrank.js",
@@ -106,7 +106,7 @@
         "title":"Bank System",
         "category":"Java and PostgreSQL based bank transaction management system",
         "image":"03.jpg",
-        "url":"https://dynrank.herokuapp.com/"
+        "url":""
       },
       {
         "title":"Resume Website",

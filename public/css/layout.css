@@ -432,6 +432,8 @@ ul#nav li.current a { color: #fe6928; }
    background: #fff;
    overflow: hidden;
    position: relative;
+   box-shadow: 5px 10px 10px #888888;
+   border-radius: 0.1rem;
 
    -webkit-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;

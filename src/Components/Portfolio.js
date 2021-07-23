@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+// import Zmage from "react-zmage";
 
 let id = 0;
 class Portfolio extends Component {
@@ -24,7 +25,12 @@ class Portfolio extends Component {
         <Fade left duration={1000} distance="40px">
           <div className="row">
             <div className="twelve columns collapsed">
-              <h1>Check Out Some of My Works. More detail in the <a href="Gancheng Luo.pdf"  target="_blank">pdf version.</a> </h1>
+              <h1>
+                Check Out Some of My Works. More detail in the
+                <a href="Gancheng Luo.pdf" target="_blank">
+                  pdf version
+                </a>.
+              </h1>
 
               <div
                 id="portfolio-wrapper"
