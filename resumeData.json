@@ -71,16 +71,20 @@
         "level":"50%"
       },
       {
+        "name":"MongoDB",
+        "level":"45%"
+      },
+      {
         "name":" Python",
         "level":"80%"
       },
       {
         "name":"JAVA",
-        "level":"50%"
+        "level":"35%"
       },
       {
         "name":"C",
-        "level":"50%"
+        "level":"40%"
       },
       {
         "name":"R",
