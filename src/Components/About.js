@@ -1,10 +1,12 @@
 import React, { Component } from "react";
 import Fade from "react-reveal";
+import Networks from "./Networks";
 
 class About extends Component {
   render() {
     if (!this.props.data) return null;
 
+    console.log(this.props.data);
     const name = this.props.data.name;
     const profilepic = "images/" + this.props.data.image;
     const bio = this.props.data.bio;
@@ -55,6 +57,9 @@ class About extends Component {
                     </a>
                   </p>
                 </div>
+              </div>
+              <div>
+                <Networks social={this.props.data.social} />
               </div>
             </div>
           </div>

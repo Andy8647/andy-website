@@ -19,22 +19,26 @@
       {
         "name":"github",
         "url":"https://github.com/Andy8647",
-        "className":"fa fa-github"
+        "className":"fa fa-github",
+        "icon": "faGithub"
       },
       {
         "name":"linkedin",
         "url":"https://www.linkedin.com/in/gancheng-luo-2999811b6/",
-        "className":"fa fa-linkedin"
+        "className":"fa fa-linkedin",
+        "icon": "faLinkedin"
       },
       {
         "name":"instagram",
         "url":"https://www.instagram.com/andy_lgc/",
-        "className":"fa fa-instagram"
+        "className":"fa fa-instagram",
+        "icon": "faInstagram"
       },
       {
-        "name":"photography",
+        "name":"500px",
         "url":"https://500px.com/p/andy8647lgc?view=photos",
-        "className":"fa fa-camera"
+        "className":"fa fa-camera",
+        "icon": "fa500px"
       }
     ]
   },
