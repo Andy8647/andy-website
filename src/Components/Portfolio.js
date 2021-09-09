@@ -26,7 +26,7 @@ class Portfolio extends Component {
           <div className="row">
             <div className="twelve columns collapsed">
               <h1>
-                Check Out Some of My Works. More detail in the
+                Check Out Some of My Works. More detail in the {" "}
                 <a href="Gancheng Luo.pdf" target="_blank">
                   pdf version
                 </a>.
