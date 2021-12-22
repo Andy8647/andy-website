@@ -52,7 +52,13 @@
         "description": "During my time at UofT, I have built a solid basis in computer science, mathematics, and statistics. The most useful soft skills I have learned are self-learning and team-working. I have done plenty of projects in teams in many subjects like web app building, OOP software development, machine learning competition, statistical report, etc."
       }
     ],
-    "work": [],
+    "work": [
+      {"company":  "Snappay Inc",
+        "title": "Jr Front-end Developer",
+        "years": "2021/09 - Present",
+        "description": "Implemented visual elements and user interaction of company product."
+      }
+    ],
     "skills": [
       {
         "name": "Git",
