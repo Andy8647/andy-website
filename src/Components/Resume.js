@@ -93,7 +93,10 @@ class Resume extends Component {
             </div>
 
             <div className="nine columns main-col">
-              <p>{skillmessage} You can check more in the <a href="Gancheng Luo.pdf"  target="_blank">pdf version</a>.</p>
+              <p>{skillmessage} You can check more in the <a href="Gancheng Luo.pdf"  target="_blank"
+                                                             onClick={() => {
+                                                               this.props.eventTrack("click", "click_download_pdf_resume", "pdf_resume")
+                                                             }}>pdf version</a>.</p>
 
               <div className="bars">
                 <ul className="skills">{skills}</ul>

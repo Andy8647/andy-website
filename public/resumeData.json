@@ -8,10 +8,10 @@
     "phone": "647-870-3941",
     "github": "https://github.com/Andy8647",
     "address": {
-      "street": "Wellesley St W",
-      "city": "Toronto",
+      "street": "Parkside Village Dr",
+      "city": "Mississauga",
       "state": "ON, Canada",
-      "zip": "M4Y 0G4"
+      "zip": "L5B 0K2"
     },
     "website": "http://www.andy8647.com",
     "resumedownload": "Gancheng Luo.pdf",
@@ -62,10 +62,18 @@
     "skills": [
       {
         "name": "Git",
-        "level": "80%"
+        "level": "90%"
       },
       {
         "name": "JavaScript",
+        "level": "85%"
+      },
+      {
+        "name": "TypeScript",
+        "level": "75%"
+      },
+      {
+        "name": "Vue",
         "level": "85%"
       },
       {
@@ -73,8 +81,12 @@
         "level": "60%"
       },
       {
+        "name": "HTML",
+        "level": "85%"
+      },
+      {
         "name": "CSS",
-        "level": "70%"
+        "level": "85%"
       },
       {
         "name": "NodeJs",
@@ -86,7 +98,7 @@
       },
       {
         "name": " Python",
-        "level": "80%"
+        "level": "70%"
       },
       {
         "name": "JAVA",
@@ -95,10 +107,6 @@
       {
         "name": "C",
         "level": "40%"
-      },
-      {
-        "name": "R",
-        "level": "90%"
       }
     ]
   },

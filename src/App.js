@@ -20,6 +20,11 @@ class App extends Component {
     ReactGA.pageview(window.location.pathname);
   }
 
+  eventTrack(category, action, label) {
+    console.log("GA Event:", category, ":", action, ":", label)
+    ReactGA.event({category: category, action: action, label: label})
+  }
+
   getResumeData() {
     $.ajax({
       url: "./resumeData.json",
@@ -43,10 +48,10 @@ class App extends Component {
     return (
       <div className="App">
         <Header data={this.state.resumeData.main} />
-        <About data={this.state.resumeData.main} />
-        <Resume data={this.state.resumeData.resume} />
-        <Portfolio data={this.state.resumeData.portfolio} />
-        <Footer data={this.state.resumeData.main} />
+        <About data={this.state.resumeData.main} eventTrack={this.eventTrack}/>
+        <Resume data={this.state.resumeData.resume} eventTrack={this.eventTrack}/>
+        <Portfolio data={this.state.resumeData.portfolio} eventTrack={this.eventTrack}/>
+        <Footer data={this.state.resumeData.main} eventTrack={this.eventTrack}/>
       </div>
     );
   }

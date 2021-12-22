@@ -44,21 +44,25 @@ class About extends Component {
                       {city} {state}, {zip}
                     </span>
                     <br />
-                    <span>{phone}</span>
+                    <span><a href={`tel:+1${phone}`}>{phone}</a></span>
                     <br />
-                    <span>{email}</span>
+                    <span><a href={`mailto:${email}`}>{email}</a></span>
                   </p>
                 </div>
                 <div className="columns download">
                   <p>
-                    <a href={resumeDownload} className="button" target="_blank">
-                      <i className="fa fa-download"></i>Download Resume
+                    <a href={resumeDownload} className="button" target="_blank" rel="noreferrer"
+                    onClick={() => {
+                      this.props.eventTrack("click", "click_download_pdf_resume", "pdf_resume")
+                    }}
+                    >
+                      <i className="fa fa-download" />Download Resume
                     </a>
                   </p>
                 </div>
               </div>
               <div>
-                <Networks social={this.props.data.social} />
+                <Networks social={this.props.data.social} eventTrack={this.props.eventTrack}/>
               </div>
             </div>
           </div>
